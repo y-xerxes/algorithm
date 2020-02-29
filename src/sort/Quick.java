@@ -33,7 +33,7 @@ public class Quick {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3, 1, 2, 5, 4};
+        int[] nums = {3, 1, 5, 2, 4};
         int[] result = sort(nums, 0, 4);
         System.out.println(Arrays.toString(result));
     }
