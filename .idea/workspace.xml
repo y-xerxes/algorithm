@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66750e09-b19e-463b-a487-164428051f03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/ReservoirSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/ReservoirSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Bubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Bubble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Insertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Merge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Quick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solution/sort/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solution/sort/Shell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReservoirSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservoirSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Bubble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/overview.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +68,21 @@
       <recent name="sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Catalan">
+  <component name="RunManager" selected="Application.BinaryHeap">
+    <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryHeap" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Catalan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.Catalan" />
       <module name="algorithm" />
@@ -108,13 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.list.FindMedianSortedArrays" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.Heap" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.list.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,27 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.LongestPalindrome" />
+    <configuration name="Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.Traversal" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.list.ZConvert" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.list.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindMedianSortedArrays" />
-      <item itemvalue="Application.LongestPalindrome" />
-      <item itemvalue="Application.ZConvert" />
       <item itemvalue="Application.IsPalindrome" />
       <item itemvalue="Application.Catalan" />
+      <item itemvalue="Application.Traversal" />
+      <item itemvalue="Application.BinaryHeap" />
+      <item itemvalue="Application.Heap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryHeap" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.Traversal" />
         <item itemvalue="Application.Catalan" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.ZConvert" />
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.FindMedianSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +214,8 @@
       <workItem from="1582643648908" duration="666000" />
       <workItem from="1582717567206" duration="486000" />
       <workItem from="1582798939405" duration="2371000" />
-      <workItem from="1582944881900" duration="2242000" />
+      <workItem from="1582944881900" duration="13095000" />
+      <workItem from="1583157653250" duration="513000" />
     </task>
     <servers />
   </component>
@@ -252,11 +228,55 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1582944883615">
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1582981465982">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762506" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465982" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1582981465979">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762505" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465979" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1582981465979">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762503" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465979" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1582981465981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762506" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465981" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1582981465985">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699851" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465985" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1582981465983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699850" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465983" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1582981465983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699849" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465983" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1582981465984">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699851" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465984" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1583157674443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582944883615" />
-    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582798939870" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583157674443" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582970697663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582970697663" />
   </component>
   <component name="masterDetails">
     <states>
