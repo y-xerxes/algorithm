@@ -13,23 +13,27 @@ public class Quick {
         return nums;
     }
 
-    private static int partition(int[] nums, int left, int right) {
-        int index = left+1;
-
-        for (int x=index; x<=right; x++) {
-            if (nums[x] < nums[left]) {
-                int temp = nums[index];
-                nums[index] = nums[x];
-                nums[x] = temp;
-                index++;
+    private static int partition(int[] nums, int s, int e) {
+        int pivot = nums[s];
+        int left = s;
+        int right = e;
+        while(left != right) {
+            while(left < right && nums[right] > pivot) {
+                right--;
+            }
+            while(left < right && nums[left] <= pivot) {
+                left++;
+            }
+            if (left < right) {
+                int p = nums[left];
+                nums[left] = nums[right];
+                nums[right] = p;
             }
         }
 
-        int temp1 = nums[left];
-        nums[left] = nums[index-1];
-        nums[index-1] = temp1;
-
-        return index-1;
+        nums[s] = nums[left];
+        nums[left] = pivot;
+        return left;
     }
 
     public static void main(String[] args) {
