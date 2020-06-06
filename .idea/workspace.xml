@@ -3,15 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="66750e09-b19e-463b-a487-164428051f03" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/Quick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/countSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/countSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Log-structured Merge-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Log-structured Merge-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/red black tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/red black tree.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,11 +21,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/num</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +41,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YIwVoOz43Lw27CEAD3zcnzZodC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,21 +63,22 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="queue" />
       <recent name="sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.countSort">
-    <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryHeap" />
+  <component name="RunManager" selected="Application.Heap">
+    <configuration name="DiagonalTravel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.DiagonalTravel" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,13 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Catalan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.Catalan" />
+    <configuration name="DiskMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigdata.DiskMergeSort" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +114,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.Traversal" />
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic_programming.LongestIncreasingSubsequence" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dynamic_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.MyStack" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,20 +144,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.countSort" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Catalan" />
-      <item itemvalue="Application.Traversal" />
-      <item itemvalue="Application.BinaryHeap" />
+      <item itemvalue="Application.MyStack" />
+      <item itemvalue="Application.DiagonalTravel" />
+      <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.DiskMergeSort" />
       <item itemvalue="Application.Heap" />
-      <item itemvalue="Application.countSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.countSort" />
         <item itemvalue="Application.Heap" />
-        <item itemvalue="Application.BinaryHeap" />
-        <item itemvalue="Application.Traversal" />
-        <item itemvalue="Application.Catalan" />
+        <item itemvalue="Application.DiskMergeSort" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.DiagonalTravel" />
+        <item itemvalue="Application.MyStack" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +222,16 @@
       <workItem from="1583330402903" duration="2646000" />
       <workItem from="1583373761444" duration="48000" />
       <workItem from="1583564386762" duration="2166000" />
+      <workItem from="1586776628489" duration="293000" />
+      <workItem from="1589109331546" duration="1267000" />
+      <workItem from="1589619092654" duration="11197000" />
+      <workItem from="1590501735956" duration="858000" />
+      <workItem from="1590806245105" duration="4017000" />
+      <workItem from="1590825313008" duration="206000" />
+      <workItem from="1590892444389" duration="6267000" />
+      <workItem from="1591152978982" duration="2588000" />
+      <workItem from="1591266337925" duration="601000" />
+      <workItem from="1591432237875" duration="3412000" />
     </task>
     <servers />
   </component>
@@ -233,69 +244,85 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="617" height="244" key="GridCell.Tab.0.bottom" timestamp="1583333220463">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="547" y="353" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590823191169">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="547" y="353" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590823191169" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1591164739358">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762506" />
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465982" />
-    <state width="617" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583332989331" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590931449831" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591164739358" />
     <state width="617" height="244" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583333220463" />
-    <state width="617" height="244" key="GridCell.Tab.0.center" timestamp="1583333220462">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1591164739357">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762505" />
-    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465979" />
-    <state width="617" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583332989330" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590931449830" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591164739357" />
     <state width="617" height="244" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583333220462" />
-    <state width="617" height="244" key="GridCell.Tab.0.left" timestamp="1583333220462">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1591164739354">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762503" />
-    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465979" />
-    <state width="617" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583332989329" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590931449829" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591164739354" />
     <state width="617" height="244" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583333220462" />
-    <state width="617" height="244" key="GridCell.Tab.0.right" timestamp="1583333220463">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1591164739358">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975762506" />
-    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465981" />
-    <state width="617" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583332989331" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590931449830" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591164739358" />
     <state width="617" height="244" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583333220463" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583332413426">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589724259290">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699851" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465985" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583332413426" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583332413425">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1589723314467" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589724259290" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589724259289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699850" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465983" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583332413425" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583332413425">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1589723314466" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589724259289" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589724259289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699849" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465983" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583332413425" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583332413426">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1589723314465" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589724259289" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589724259289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1582975699851" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582981465984" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583332413426" />
-    <state x="376" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1586776627724">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1589723314467" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589724259289" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1590825289932">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1582944883615" />
-    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583330403429" />
-    <state x="376" y="300" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-61.1920.1057@0.23.1440.877" timestamp="1583564386687" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1590825289932" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1591432603474">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1591432603474" />
+    <state x="376" y="300" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591266361074" />
+    <state x="376" y="300" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-61.1920.1057@0.23.1440.877" timestamp="1590806247980" />
     <state x="376" y="300" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586776627724" />
     <state x="458" y="221" key="extract.method.dialog" timestamp="1583330702685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="221" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1583330702685" />
+    <state x="383" y="214" width="833" height="538" key="find.popup" timestamp="1589637746910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="214" width="833" height="538" key="find.popup/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1589637746910" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1590929851832">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.23.1440.877/-1920.-61.1920.1057@0.23.1440.877" timestamp="1590929851832" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582970697663">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
